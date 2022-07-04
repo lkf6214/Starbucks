@@ -1,0 +1,56 @@
+/* common */
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* Font */
+.material-symbols_outline {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
+  font-size: 100px;
+}
+
+.header {
+    background-color: #f6f5ef
+    border-bottom: 1px solid #c8c8c8
+}
+
+.inner {
+  width: 1100px;
+  height: 120px;
+  position: relative;
+}
+
+.header__logo {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 75px;
+    display: block;
+}
+
+.header__menu {
+    height: 20px;
+    right: 93px;
+    top: 15px;
+    width: 464px;
+}
+
+.header__menu:hover {
+color: 000;
+padding: 10px 15ps;
+font-size: 12px; }
+bored line:  
+
+.Sign In {}
+
+.my starbucks {}
+
+
+.Customer Service & Ideas {}
+
+
+
+
+
+
+

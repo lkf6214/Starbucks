@@ -1,0 +1,107 @@
+/* common */
+/* 모든 a에 밑줄을 없애라 */
+a {
+  text-decoration: none;
+  color: #222529;
+}
+
+body {
+  font-size: 16px;
+}
+
+header {
+  position: fixed;
+}
+
+header :hover {
+  background-color: greenyellow;
+  transition: 1s;
+}
+
+/* 부모요소에 relative 꼭 해줘야 기준이될 수 있음 */
+header .inner {
+  position: relative;
+  width: 1200px;
+  height: 64px;
+  padding: 0 32px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* HEADER LOGO */
+/* 앱솔루트하고 탑 바텀0으로 하는게 기본 */
+header .inner .header__logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 32px;
+}
+
+/* HEADER MENU */
+header .inner .header__menu {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  left: 200px;
+  top: 0;
+  bottom: 0;
+  height: 32px;
+  /* transform: translate(-50%,0); 중앙정렬 팁!! */
+}
+
+header .inner .header__menu li {
+  padding: 8px 10px;
+  margin-right: 25px;
+}
+
+header .inner .header__menu li a {
+}
+
+header .inner .header__menu li a:hover {
+  /* color: #1dc078; */
+  padding: 4px 10px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #dcd5d5;
+  border-radius: 4px;
+  color: white;
+}
+
+/* HEADER BTN */
+header .inner .header__btn {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 2.5rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+header .inner .header__btn .header__btn__login {
+  padding: 8px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 3px;
+}
+
+header .inner .header__btn .header__btn__login:hover {
+  text-decoration: underline;
+}
+
+header .inner .header__btn .header__btn__register {
+  padding: 8px 16px;
+  margin-right: 8px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #353a35;
+  border-radius: 4px;
+  color: white;
+}
+
+header .inner .header__btn .header__btn__register:hover {
+  background-color: #686d68;
+}
